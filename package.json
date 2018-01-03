@@ -10,7 +10,7 @@
     "test:watch": "npm run test -- --watch",
     "lint": "eslint src/ --fix",
     "clean": "rm -rf node_modules",
-    "postinstall": "export NODE_ENV=production&& webpack -p --config webpack/webpack.config.prod.js"
+    "postinstall": "pwd ; export NODE_ENV=production&& webpack -p --config webpack/webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
